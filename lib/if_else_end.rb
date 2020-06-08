@@ -1,7 +1,7 @@
 # Write your solution here
 time = Time.now 
 time = time.to_i
-  if time.to_1.even 
+  if time % 2 == 0 
     puts "Even!"
   else 
     puts "Odd!"
